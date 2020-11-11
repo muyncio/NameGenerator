@@ -1,4 +1,13 @@
-If you want to add list of names, surnames and logins to mySql, you must use command:
+First of all you need to create new schema and table with command:
+
+Create Table users(
+id integer primary key auto_increment,
+name Char(30),
+surname char(30),
+login char (20));
+
+
+next, if you want to add list of names, surnames and logins to mySql, you must use command:
 
 LOAD XML LOCAL INFILE 'pathAndFileName' INTO TABLE users ROWS IDENTIFIED BY '<login>';
 
