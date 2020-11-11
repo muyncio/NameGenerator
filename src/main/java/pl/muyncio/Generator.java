@@ -12,14 +12,14 @@ public class Generator {
                         "Janusz", "Jonasz", "Kacper", "Lambert", "Leon", "Łukasz", "Maciej", "Marcin", "Mariusz", "Nikodem",
                         "Oleg", "Pankracy", "Rafał", "Sławek", "Szymon", "Tadeusz", "Tomasz", "Wacław", "Grzegorz", "Zenon"};
 
-    String[] surnames= {"", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",
-                        "", "", "", "", "", "", "", "", "", "",};
+    String[] surnames= {"Abraczyk", "Adamowicz", "Araszkiewicz", "Bachleda", "Baran", "Białas", "Bielecki", "Bizoń", "Bogurka", "Burtymowicz",
+                        "Chlebek", "Chodura", "Cholewiński", "Cichoń", "Czech", "Chlebek", "Ciechanowski", "Dąbek", "Dębicki", "Domagała",
+                        "Waligóra", "Dziadosz", "Dzikowski", "Ekielski", "Filipczak", "Fiut", "Fogiel", "Frankowski", "Grabowski", "Gawron",
+                        "Gawryś", "Godlewski", "Grochowiak", "Hrycyk", "Iwański", "Jabłkowski", "Jachimowicz", "Jank", "Janowski", "Kaczmarek",
+                        "Karpiński", "Kasprowicz", "Klimek", "Kokoszek", "Kołłątaj", "Komarnicki", "Korczowski", "Korwin", "Kot", "Kozłowski",
+                        "Kozubek", "Krawczyk", "Kowalski", "Kulas", "Kucharski", "Lewandowski", "Lewek", "Lipiński", "Maciejewski", "Młynarski",
+                        "Maciaszek", "Malinowski", "Mazur", "Mazurek", "Mąkosza", "Michnik", "Młynarczyk", "Moskal", "Muszyński", "Myśliwiec",
+                        "Napierski", "Niemiec", "Niewiarowski", "Oborski", "Olszewski", "Oleszek", "Pajączkowski", "Pankau", "Pankiewicz", "Pacewicz",
+                        "Pawlak", "Pelc", "Pałka", "Piekarski", "Pietrzykowski", "Pilarski", "Piskorski", "Pluta", "Raczyński", "Raszewski",
+                        "Rataj", "Rogalski", "Rogucki", "Salicki", "Smolar", "Snopkiewicz", "Tarczyński", "Tyszka", "Wielkopolski", "Zawada"};
 }
