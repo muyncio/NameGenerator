@@ -9,9 +9,9 @@ public class Main {
         FileCreator fileCreator = new FileCreator();
         WriteToFile writeToFile = new WriteToFile();
 
-        String x = "przykladowy text";
 
         fileCreator.FileCreator("target/text");
+        String x = generator.nameAndSurnameToXML(1000);
         writeToFile.writer("target/text.xml",x);
     }
 }

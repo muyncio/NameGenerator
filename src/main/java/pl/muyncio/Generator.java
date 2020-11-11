@@ -27,18 +27,34 @@ public class Generator {
 
     String nameAndSurname;
     ArrayList <String> nameAndSurnameArr = new ArrayList();
+    String textToXML = "<users>\n";
 
 
-    public ArrayList<String> generatorNamesWithSurnames(){
-        for (int i = 0; i <=50000; i++){
+//    public ArrayList<String> generatorNamesWithSurnames(){
+//        for (int i = 0; i <=50000; i++){
+//            int x = ((int)(Math.random()*100));
+//            int y = ((int)(Math.random()*100));
+//
+//            nameAndSurname = names[x] + " " + surnames[y];
+//
+//            nameAndSurnameArr.add(nameAndSurname);
+//        }
+//
+//        return nameAndSurnameArr;
+//    }
+
+    public String nameAndSurnameToXML(int howManyDoYouWant){
+        for (int i = 0; i <= howManyDoYouWant; i++) {
             int x = ((int)(Math.random()*100));
             int y = ((int)(Math.random()*100));
+            textToXML += "\t<user>\n";
+            textToXML += "\t\t<name>" + names[x] + "</name>\n";
+            textToXML += "\t\t<surname>" + surnames[x] + "</surname>\n";
+            textToXML += "\t\t<login>login" + i + "</login>\n";
+            textToXML += "\t</user>\n";
 
-            nameAndSurname = names[x] + " " + surnames[y];
-
-            nameAndSurnameArr.add(nameAndSurname);
         }
-
-        return nameAndSurnameArr;
+        textToXML += "</users>";
+        return textToXML;
     }
 }
