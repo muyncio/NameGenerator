@@ -1,0 +1,5 @@
+If you want to add list of names, surnames and logins to mySql, you must use command:
+
+LOAD XML LOCAL INFILE 'pathAndFileName' INTO TABLE users ROWS IDENTIFIED BY '<login>';
+
+in MySql Command Line Client
