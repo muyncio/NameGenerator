@@ -1,5 +1,7 @@
 package pl.muyncio;
 
+import java.util.ArrayList;
+
 public class Generator {
     String[] names = {"Ada", "Adela", "Adelajda", "Alina", "Alicja", "Agnieszka", "Amanda", "Andżelika", "Aneta", "Apolonia",
                         "Barbara", "Bianka", "Celestyna", "Czesława", "Dagna", "Daria", "Dominika", "Eliza", "Ewa", "Fiona",
@@ -22,4 +24,21 @@ public class Generator {
                         "Napierski", "Niemiec", "Niewiarowski", "Oborski", "Olszewski", "Oleszek", "Pajączkowski", "Pankau", "Pankiewicz", "Pacewicz",
                         "Pawlak", "Pelc", "Pałka", "Piekarski", "Pietrzykowski", "Pilarski", "Piskorski", "Pluta", "Raczyński", "Raszewski",
                         "Rataj", "Rogalski", "Rogucki", "Salicki", "Smolar", "Snopkiewicz", "Tarczyński", "Tyszka", "Wielkopolski", "Zawada"};
+
+    String nameAndSurname;
+    ArrayList <String> nameAndSurnameArr = new ArrayList();
+
+
+    public ArrayList<String> generatorNamesWithSurnames(){
+        for (int i = 0; i <=50000; i++){
+            int x = ((int)(Math.random()*100));
+            int y = ((int)(Math.random()*100));
+
+            nameAndSurname = names[x] + " " + surnames[y];
+
+            nameAndSurnameArr.add(nameAndSurname);
+        }
+
+        return nameAndSurnameArr;
+    }
 }
