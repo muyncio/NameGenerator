@@ -44,7 +44,7 @@ public class Generator {
 //    }
 
     public String nameAndSurnameToXML(int howManyDoYouWant){
-        for (int i = 0; i <= howManyDoYouWant; i++) {
+        for (int i = 0; i < howManyDoYouWant; i++) {
             int x = ((int)(Math.random()*100));
             int y = ((int)(Math.random()*100));
             textToXML += "\t<user>\n";
